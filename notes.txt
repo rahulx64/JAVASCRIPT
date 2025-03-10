@@ -1,0 +1,48 @@
+js can be put as a script tag in the body or head
+document.write(),windows.alert()
+The JavaScript syntax defines two types of values:
+
+Fixed values
+Variable values
+Fixed values are called Literals.
+
+Variable values are called Variables.
+
+var is old modern is let and const
+let and const is block scoped
+var can be be accesed outside of block
+const properties can changed but not full const 
+==  just equal
+=== equal valu and equal type
+typeof operator 
+object contain properties and methods
+const x=new object();
+----------------------
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
+};
+
+------------------
+object is key in javascript most important 
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+
+delete person.age;
+-----------------------
+Object.values() creates an array from the property values:
+------------------
+ string interpolation.
+ --------------
+ try catch throw finnaly
+ scope 
+ hoisting
+ 
